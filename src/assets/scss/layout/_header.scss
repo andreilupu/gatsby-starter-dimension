@@ -63,11 +63,15 @@
   }
 
   .logo {
-    width: 5.5rem;
-    height: 5.5rem;
-    line-height: 5.5rem;
-    border: solid _size(border-width) _palette(border);
+    width: 9rem;
+    height: 9rem;
+    line-height: 9rem;
+    //border: solid _size(border-width) _palette(border);
+    border: none;
     border-radius: 100%;
+    
+    background-size: contain;
+    background-image: url( ../../images/logo.jpg);
 
     .icon {
       &:before {

@@ -4,17 +4,17 @@ import React from 'react'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-diamond"></span>
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
+        <h1>Andrei Lupu</h1>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
+          A web developer that could be described as a web enthusiast, WordPress fanboy, and a challenge seeker.
           <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
+          You can find me on social media but mainly on {' '}
+          <a href="https://twitch.tv/thelup">twitch.tv/thelup</a>
+          <br />
+          Cheers!{' '}
         </p>
       </div>
     </div>
@@ -45,15 +45,6 @@ const Header = props => (
             }}
           >
             About
-          </button>
-        </li>
-        <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('contact')
-            }}
-          >
-            Contact
           </button>
         </li>
       </ul>
